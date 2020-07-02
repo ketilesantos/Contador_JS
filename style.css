@@ -1,6 +1,6 @@
 body{
     background: aqua;
-    font: normal 15pt Arial;
+    font: normal 15pt sans-serif;
 }
 header{
     color: rgb(14, 2, 29);
@@ -40,7 +40,7 @@ p{
 #botao{
    display: flex;
    margin:  25px auto;
-   width: 350px;
+   width: 370px;
    justify-content: center;
    background-color: rgb(8, 240, 77);
    border: 2px solid rgb(5, 224, 74) ;

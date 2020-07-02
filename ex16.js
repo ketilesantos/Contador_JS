@@ -15,12 +15,12 @@ function counting() {
     }
     if (Number(start.value) < Number(end.value)) {
       guard = result.innerHTML = "Contando: "
-      for (var v = Number(start.value); v <= Number(end.value); v += Number(step.value)) {
+      for (var v = Number(start.value); v < Number(end.value); v += Number(step.value)) {
         guard = result.innerHTML = guard + ` ${v}  \u{1F449}`
       } guard = result.innerHTML = guard + ` ${v}  \u{1F3C1}`
     } else {
       guard = result.innerHTML = "Contando: "
-      for (var v = Number(start.value); v >= Number(end.value); v -= Number(step.value)) {
+      for (var v = Number(start.value); v > Number(end.value); v -= Number(step.value)) {
         guard = result.innerHTML = guard + ` ${v}  \u{1F449}`
       } guard = result.innerHTML = guard + ` ${v}  \u{1F3C1}`
     }

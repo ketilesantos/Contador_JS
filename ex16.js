@@ -4,7 +4,7 @@ function contar(){
     var pass = document.getElementById('txtpasso')
     var res = document.getElementById('res')
     var guarda = ''
-    if (Number(ini.value.length) == " " || Number(fim.value.length) === 0 || Number(fim.value.length) === 0 ){
+    if (Number(ini.value.length) == " " || Number(fim.value.length) === 0 || Number(pass.value.length) === 0 ){
           guarda =  res.innerHTML = 'Impossivel Contar, insira os valores nos campo(s)!!'
     }else if (Number(ini.value) < Number(fim.value)){
       guarda = res.innerHTML = "Contando: "
